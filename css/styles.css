@@ -106,7 +106,7 @@ body {
 
 .main-nav {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
@@ -320,6 +320,7 @@ button:focus {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
+  margin: auto;
 }
 
 .section-two {
@@ -436,6 +437,18 @@ button:focus {
 
 .sotial-item {
   fill: var(--batnsp);
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
+}
+
+.sotial-item-footer {
+  fill: var(--batnsp);
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
 }
 
 .section-five {
@@ -560,6 +573,7 @@ button:focus {
   margin-right: 120px;
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 
 .social-media {
