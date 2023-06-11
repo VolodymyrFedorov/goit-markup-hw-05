@@ -106,7 +106,7 @@ body {
 
 .main-nav {
   position: relative;
-  color: #2e2f42;
+  color: #404bbf;;
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
@@ -242,11 +242,7 @@ button:focus {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.product-img:hover .product-paragraph {
-  transform: translateY(0%);
-}
-
-.product-img:focus .product-paragraph {
+.product-img:hover, .product-img:focus .product-paragraph {
   transform: translateY(0%);
 }
 
